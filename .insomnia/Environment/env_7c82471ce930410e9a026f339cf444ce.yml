@@ -1,0 +1,14 @@
+_id: env_7c82471ce930410e9a026f339cf444ce
+type: Environment
+parentId: env_726b80fd5e4c2861018624df572f1e80fda3e4ce
+modified: 1650305614171
+created: 1650305515247
+name: publish.obsidian.md
+data:
+  base_url: https://publish.obsidian.md/greg-stevens-career
+dataPropertyOrder:
+  "&":
+    - base_url
+color: "#7d69cb"
+isPrivate: false
+metaSortKey: 1

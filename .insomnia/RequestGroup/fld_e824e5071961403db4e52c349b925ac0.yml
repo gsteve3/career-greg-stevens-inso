@@ -1,0 +1,10 @@
+_id: fld_e824e5071961403db4e52c349b925ac0
+type: RequestGroup
+parentId: wrk_56a2c624a4db41dfb88b0579c63c022e
+modified: 1650474139266
+created: 1650474109180
+name: 001 Core / Essential
+description: Essential
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1650474109180

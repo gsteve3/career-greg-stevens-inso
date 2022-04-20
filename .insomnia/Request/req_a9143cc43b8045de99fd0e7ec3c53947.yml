@@ -1,0 +1,21 @@
+_id: req_a9143cc43b8045de99fd0e7ec3c53947
+type: Request
+parentId: fld_ecd6762c70494b19bdb6ed61c39839cb
+modified: 1650474105063
+created: 1650302024309
+url: "{{ _.base_url }}/atlassian"
+name: /atlassian
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1649435570336
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

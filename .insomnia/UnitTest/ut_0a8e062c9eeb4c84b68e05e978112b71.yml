@@ -1,0 +1,10 @@
+_id: ut_0a8e062c9eeb4c84b68e05e978112b71
+type: UnitTest
+parentId: uts_e6d9ca9d0ef6484cb66599cfa4c16e56
+modified: 1650474284984
+created: 1650474226170
+requestId: req_a9143cc43b8045de99fd0e7ec3c53947
+name: /atlassian
+code: |-
+  const response1 = await insomnia.send();
+  expect(response1.status).to.equal(200);

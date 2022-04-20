@@ -1,0 +1,33 @@
+_id: req_da41a246ec224bf5840ddbd68415dd3a
+type: Request
+parentId: fld_e824e5071961403db4e52c349b925ac0
+modified: 1650474111325
+created: 1650301993639
+url: "{{ _.base_url }}"
+name: Home
+description: >+
+  In browser:
+
+
+  1. https://career.stevens.pro/
+
+  2. redirects to https://career.stevens.pro/README after loading body
+
+  3. Must be a JS redirect, `curl` and `Insomnia`, `OWASP ZAP!`, all return the compressed body/html/js
+
+
+  Hmmmm....
+
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1650301993640
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
