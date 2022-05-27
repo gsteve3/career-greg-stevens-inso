@@ -5,10 +5,10 @@
   "__export_source": "insomnia.desktop.app:v2021.6.0",
   "resources": [
     {
-      "_id": "req_5f1a57f134e94d499f15a112abb81df0",
-      "parentId": "fld_e850aa34f2714acab04cb8794f253b52",
+      "_id": "req_a9143cc43b8045de99fd0e7ec3c53947",
+      "parentId": "fld_ecd6762c70494b19bdb6ed61c39839cb",
       "modified": "1637671845661",
-      "created": 1653609505683,
+      "created": 1650302024309,
       "url": "{{ _.base_url }}/atlassian",
       "name": "/atlassian",
       "description": "",
@@ -28,10 +28,10 @@
       "_type": "request"
     },
     {
-      "_id": "fld_e850aa34f2714acab04cb8794f253b52",
+      "_id": "fld_ecd6762c70494b19bdb6ed61c39839cb",
       "parentId": "__WORKSPACE_ID__",
       "modified": "1637671845661",
-      "created": 1653609505663,
+      "created": 1650474099730,
       "name": "002 Landing Pages",
       "description": "",
       "environment": {},
@@ -50,10 +50,10 @@
       "_type": "workspace"
     },
     {
-      "_id": "req_a23d301d50214b2284f55d3d34fe1463",
-      "parentId": "fld_e850aa34f2714acab04cb8794f253b52",
+      "_id": "req_2705b2dc4ddc42a885d317c5277a1e7f",
+      "parentId": "fld_ecd6762c70494b19bdb6ed61c39839cb",
       "modified": "1637671845661",
-      "created": 1653609505685,
+      "created": 1650472830383,
       "url": "{{ _.base_url }}/org/atlassian",
       "name": "/org/atlassian",
       "description": "",
@@ -73,10 +73,10 @@
       "_type": "request"
     },
     {
-      "_id": "req_4c3549e2fa494e338059517804ea6f10",
-      "parentId": "fld_e850aa34f2714acab04cb8794f253b52",
+      "_id": "req_c9a35b85c94a4879b4721aa76163d652",
+      "parentId": "fld_ecd6762c70494b19bdb6ed61c39839cb",
       "modified": "1637671845661",
-      "created": 1653609505687,
+      "created": 1651761429300,
       "url": "{{ _.base_url }}/hatch",
       "name": "/hatch",
       "description": "Added/tweeted 2022-05-04",
@@ -96,10 +96,10 @@
       "_type": "request"
     },
     {
-      "_id": "req_ff4f92c1e3da48ec8a43fba21d8be72a",
-      "parentId": "fld_e850aa34f2714acab04cb8794f253b52",
+      "_id": "req_704d3f72d48846aab0553c96287807fe",
+      "parentId": "fld_ecd6762c70494b19bdb6ed61c39839cb",
       "modified": "1637671845661",
-      "created": 1653609505690,
+      "created": 1652290150900,
       "url": "{{ _.base_url }}/video",
       "name": "/video",
       "description": "Added 2022-05-11 for Hatch Innovations video. Weird...video2?\n\n\n\n\n\n",
@@ -119,10 +119,10 @@
       "_type": "request"
     },
     {
-      "_id": "req_45ef0d5ff6094ea7a5ac1e822b118e5a",
-      "parentId": "fld_e850aa34f2714acab04cb8794f253b52",
+      "_id": "req_f044d2e821244edcbab7108a7a0ddd92",
+      "parentId": "fld_ecd6762c70494b19bdb6ed61c39839cb",
       "modified": "1637671845661",
-      "created": 1653609505692,
+      "created": 1653067946466,
       "url": "{{ _.base_url }}/tiller",
       "name": "/tiller",
       "description": "",
@@ -142,10 +142,10 @@
       "_type": "request"
     },
     {
-      "_id": "req_8590540894214ce2a8a4738705837936",
-      "parentId": "fld_0efbc8612206407d886610c34311bc68",
+      "_id": "req_da41a246ec224bf5840ddbd68415dd3a",
+      "parentId": "fld_e824e5071961403db4e52c349b925ac0",
       "modified": "1637671845661",
-      "created": 1653609505696,
+      "created": 1650301993639,
       "url": "{{ _.base_url }}",
       "name": "Home",
       "description": "In browser:\n\n1. https://career.stevens.pro/\n2. redirects to https://career.stevens.pro/README after loading body\n3. Must be a JS redirect, `curl` and `Insomnia`, `OWASP ZAP!`, all return the compressed body/html/js\n\nHmmmm....\n\n",
@@ -165,10 +165,10 @@
       "_type": "request"
     },
     {
-      "_id": "fld_0efbc8612206407d886610c34311bc68",
+      "_id": "fld_e824e5071961403db4e52c349b925ac0",
       "parentId": "__WORKSPACE_ID__",
       "modified": "1637671845661",
-      "created": 1653609505694,
+      "created": 1650474109180,
       "name": "001 Core / Essential",
       "description": "Essential",
       "environment": {},
@@ -177,10 +177,10 @@
       "_type": "request_group"
     },
     {
-      "_id": "req_5319a4d5b659431d885947588d024be8",
-      "parentId": "fld_3561804f6ee0411182975c473e75cf88",
+      "_id": "req_95671748ecc148e8ab2d9dc85608786d",
+      "parentId": "fld_f2eb49ef4e1244da99955c3ef1ddd892",
       "modified": "1637671845661",
-      "created": 1653609505668,
+      "created": 1653523816150,
       "url": "https://greg.stevens.pro/career/",
       "name": "//greg.stevens.pro/career",
       "description": "\n`/netlify.toml:6`\n```toml\n[[redirects]]\n    from = \"https://greg.stevens.pro/*\"\n    to = \"https://www.stevens.pro/:splat\"\n    status = 303\n    force = true\n```\n",
@@ -200,10 +200,10 @@
       "_type": "request"
     },
     {
-      "_id": "fld_3561804f6ee0411182975c473e75cf88",
-      "parentId": "fld_e850aa34f2714acab04cb8794f253b52",
+      "_id": "fld_f2eb49ef4e1244da99955c3ef1ddd892",
+      "parentId": "fld_ecd6762c70494b19bdb6ed61c39839cb",
       "modified": "1637671845661",
-      "created": 1653609505667,
+      "created": 1653523843830,
       "name": "External: stevens.pro/career",
       "description": "`a.k.a. greg.stevens.pro`",
       "environment": {},
@@ -212,10 +212,10 @@
       "_type": "request_group"
     },
     {
-      "_id": "req_2aafc66da45f4d998cc16dc29c0b737c",
-      "parentId": "fld_3561804f6ee0411182975c473e75cf88",
+      "_id": "req_88def3292c1a402abcfd8534ed7af451",
+      "parentId": "fld_f2eb49ef4e1244da99955c3ef1ddd892",
       "modified": "1637671845661",
-      "created": 1653609505670,
+      "created": 1653523870818,
       "url": "{{  _.stevens_pro_base }}/career/",
       "name": "//www.stevens.pro/career",
       "description": "",
@@ -235,10 +235,10 @@
       "_type": "request"
     },
     {
-      "_id": "req_cae989b891bd4e2a9095b58e4df0a8b7",
-      "parentId": "fld_3561804f6ee0411182975c473e75cf88",
+      "_id": "req_56e870b31d0e4c35ae62198ebce35f57",
+      "parentId": "fld_f2eb49ef4e1244da99955c3ef1ddd892",
       "modified": "1637671845661",
-      "created": 1653609505672,
+      "created": 1653524666969,
       "url": "https://main--greg-stevens-pro.netlify.app/career",
       "name": "//main--greg-stevens-pro.netlify.app",
       "description": "https://main--greg-stevens-pro.netlify.app",
@@ -258,10 +258,10 @@
       "_type": "request"
     },
     {
-      "_id": "req_95d6430175a640febf16b38a6196b83f",
-      "parentId": "fld_560bcf16cd2640ddac71d4ac41ba971b",
+      "_id": "req_94e1bde190bd461799f1903d6f65ef56",
+      "parentId": "fld_a8dcc1678dd2438787aac19ee39a6283",
       "modified": "1637671845661",
-      "created": 1653609505676,
+      "created": 1653598239342,
       "url": "https://raw.githubusercontent.com/gsteve3/greg-stevens-career/4140e3b66dac1a10cc6c809fe12e865164cb0261/career/2022-03%20Amazon%20Cloud%20Architect/Greg%20Stevens%20-%20Application%20to%20become%20an%20Amazon%20Cloud%20Architect%20-%202022-03-11.png",
       "name": "GitHub Profile",
       "description": "",
@@ -281,10 +281,10 @@
       "_type": "request"
     },
     {
-      "_id": "fld_560bcf16cd2640ddac71d4ac41ba971b",
-      "parentId": "fld_e850aa34f2714acab04cb8794f253b52",
+      "_id": "fld_a8dcc1678dd2438787aac19ee39a6283",
+      "parentId": "fld_ecd6762c70494b19bdb6ed61c39839cb",
       "modified": "1637671845661",
-      "created": 1653609505674,
+      "created": 1653598230276,
       "name": "External 3rd Party",
       "description": "",
       "environment": {},
@@ -293,10 +293,10 @@
       "_type": "request_group"
     },
     {
-      "_id": "req_39ca6153602d4ef5aa75d7b301160cb4",
-      "parentId": "fld_30f85f5dbfcb4a27b30819b66844b617",
+      "_id": "req_ba6e66951f2f4878b42d942e5a6c540c",
+      "parentId": "fld_a67b830cf38444d0823896307ade86f4",
       "modified": "1637671845661",
-      "created": 1653609505680,
+      "created": 1653598309994,
       "url": "https://raw.githubusercontent.com/gsteve3/greg-stevens-career/4140e3b66dac1a10cc6c809fe12e865164cb0261/career/2022-03%20Amazon%20Cloud%20Architect/Greg%20Stevens%20-%20Application%20to%20become%20an%20Amazon%20Cloud%20Architect%20-%202022-03-11.png",
       "name": "2022-05-26 github.com Diagram of Greg for Timely I think....",
       "description": "\n\n## KNOWN PROBLEMS\n\n1. `Send All Requests in Folder` will throw error if no request exists wtihin the folder.\n2. Feature DOES NOT recurse through sub-folders, only requests in that specific directory 😢.\t\n2. TestTest\n\n```\nUncaught (in promise) Error: Error invoking remote method 'GUEST_VIEW_MANAGER_CALL': Error: ERR_FAILED (-2) loading 'data:text/html; charset=utf-8,%3C!DOCTYPE%20html%3E%3Chtml%20lang%3D%22en%22%3E%3Chead%3E%3Cbase%20href%3D%22https%3A%2F%2Fwww.stevens.pro%2Fcareer%2F%22%3E%3Cmeta%20charSet%3D%22utf-8%22%2F%3E%3Cmeta%20http-equiv%3D%22x-ua-compatible%22%20content%3D%22ie%3Dedge%22%2F%3E%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%20initial-scale%3D1%2C%20shrink-to-fit%3Dno%22%2F%3E%3Cstyle%20data-href%3D%22%2Fstyles.a59cd40bd102a09c8338.css%22%20id%3D%22gatsby-global-css%22%3E%40import%20url(https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOpen%2BSans%3A400%2C400italic%2C600%2C600italic%2C800%2C800italic)%3B%0A%2F*!%0A%20*%20Font%20Awesome%20Free%205.9.0%20by%20%40fontawesome%20-%20https%3A%2F%2Ffontawesome.com%0A%20*%20License%20-%20https%3A%2F%2Ffontawesome.com%2Flicense%2Ffree%20(Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License)%0A%20*%2F.fa%2C.fab%2C.fal%2C.far%2C.fas%7B-moz-osx-font-smoothing%3Agrayscale%3B-webkit-font-smoothing%3Aantialiased%3Bdisplay%3Ainline-block%3Bfont-style%3Anormal%3Bfont-variant%3Anormal%3Btext-rendering%3Aauto%3Bline-height%3A1%7D.fa-lg%7Bfont-size%3A1.33333em%3Bline-height%3A.75em%3Bvertical-align%3A-.0667em%7D.fa-xs%7Bfont-size%3A.75em%7D.fa-sm%7Bfont-size%3A.875em%7D.fa-1x%7Bfont-size%3A1em%7D.fa-2x%7Bfont-size%3A2em%7D.fa-3x%7Bfont-size%3A3em%7D.fa-4x%7Bfont-size%3A4em%7D.fa-5x%7Bfont-size%3A5em%7D.fa-6x%7Bfont-size%3A6em%7D.fa-7x%7Bfont-size%3A7em%7D.fa-8x%7Bfont-size%3A8em%7D.fa-9x%7Bfont-size%3A9em%7D.fa-10x%7Bfont-size%3A10em%7D.fa-fw%7Btext-align%3Acenter%3Bwidth%3A1.25em%7D.fa-ul%7Blist-style-type%3Anone%3Bmargin-left%3A2.5em%3Bpadding-left%3A0%7D.fa-ul%3Eli%7Bposition%3Arelative%7D.fa-li%7Bleft%3A-2em%3Bposition%3Aabsolute%3Btext-align%3Acenter%3Bwidth%3A2em%3Bline-height%3Ainherit%7D.fa-border%7Bborder%3A.08em%20solid%20%23eee%3Bborder-radius%3A.1em%3Bpadding%3A.2em%20.25em%20.15em%7D.fa-pull-left%7Bfloat%3Aleft%7D.fa-pull-right%7Bfloat%3Aright%7D.fa.fa-pull-left%2C.fab.fa-pull-left%2C.fal.fa-pull-left%2C.far.fa-pull-left'\n    at EventEmitter.t.ipcRendererInternal.invoke (node:electron/js2c/renderer_init:85:527)\n14:50:14.603 › Unhandled Promise Error: Error invoking remote method 'GUEST_VIEW_MANAGER_CALL': Error: ERR_FAILED (-2) loading 'data:text/html; charset=utf-8,%3C!DOCTYPE%20html%3E%3Chtml%20lang%3D%22en%22%3E%3Chead%3E%3Cbase%20href%3D%22https%3A%2F%2Fwww.stevens.pro%2Fcareer%2F%22%3E%3Cmeta%20charSet%3D%22utf-8%22%2F%3E%3Cmeta%20http-equiv%3D%22x-ua-compatible%22%20content%3D%22ie%3Dedge%22%2F%3E%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%20initial-scale%3D1%2C%20shrink-to-fit%3Dno%22%2F%3E%3Cstyle%20data-href%3D%22%2Fstyles.a59cd40bd102a09c8338.css%22%20id%3D%22gatsby-global-css%22%3E%40import%20url(https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DOpen%2BSans%3A400%2C400italic%2C600%2C600italic%2C800%2C800italic)%3B%0A%2F*!%0A%20*%20Font%20Awesome%20Free%205.9.0%20by%20%40fontawesome%20-%20https%3A%2F%2Ffontawesome.com%0A%20*%20License%20-%20https%3A%2F%2Ffontawesome.com%2Flicense%2Ffree%20(Icons%3A%20CC%20BY%204.0%2C%20Fonts%3A%20SIL%20OFL%201.1%2C%20Code%3A%20MIT%20License)%0A%20*%2F.fa%2C.fab%2C.fal%2C.far%2C.fas%7B-moz-osx-font-smoothing%3Agrayscale%3B-webkit-font-smoothing%3Aantialiased%3Bdisplay%3Ainline-block%3Bfont-style%3Anormal%3Bfont-variant%3Anormal%3Btext-rendering%3Aauto%3Bline-height%3A1%7D.fa-lg%7Bfont-size%3A1.33333em%3Bline-height%3A.75em%3Bvertical-align%3A-.0667em%7D.fa-xs%7Bfont-size%3A.75em%7D.fa-sm%7Bfont-size%3A.875em%7D.fa-1x%7Bfont-size%3A1em%7D.fa-2x%7Bfont-size%3A2em%7D.fa-3x%7Bfont-size%3A3em%7D.fa-4x%7Bfont-size%3A4em%7D.fa-5x%7Bfont-size%3A5em%7D.fa-6x%7Bfont-size%3A6em%7D.fa-7x%7Bfont-size%3A7em%7D.fa-8x%7Bfont-size%3A8em%7D.fa-9x%7Bfont-size%3A9em%7D.fa-10x%7Bfont-size%3A10em%7D.fa-fw%7Btext-align%3Acenter%3Bwidth%3A1.25em%7D.fa-ul%7Blist-style-type%3Anone%3Bmargin-left%3A2.5em%3Bpadding-left%3A0%7D.fa-ul%3Eli%7Bposition%3Arelative%7D.fa-li%7Bleft%3A-2em%3Bposition%3Aabsolute%3Btext-align%3Acenter%3Bwidth%3A2em%3Bline-height%3Ainherit%7D.fa-border%7Bborder%3A.08em%20solid%20%23eee%3Bborder-radius%3A.1em%3Bpadding%3A.2em%20.25em%20.15em%7D.fa-pull-left%7Bfloat%3Aleft%7D.fa-pull-right%7Bfloat%3Aright%7D.fa.fa-pull-left%2C.fab.fa-pull-left%2C.fal.fa-pull-left%2C.far.fa-pull-left'\n    at EventEmitter.t.ipcRendererInternal.invoke (node:electron/js2c/renderer_init:85:527)\nindex.20f288cc.js:5076 Uncaught (in promise) TypeError: Cannot read properties of undefined (reading 'requestMetas')\n    at index.20f288cc.js:5076:21918\n    at executeHotKey (index.20f288cc.js:68:983)\n15:13:48.212 › Unhandled Promise TypeError: Cannot read properties of undefined (reading 'requestMetas')\n    at index.20f288cc.js:5076:21918\n    at executeHotKey (index.20f288cc.js:68:983)\n\t\t\n\t\t\n```\n\n\n\n## Also See\nInsomnia Description for the `Shared Links` folder, started docs in Insomnia there, on 2022-05-26 at 15:43 MDT.\n\n",
@@ -316,10 +316,10 @@
       "_type": "request"
     },
     {
-      "_id": "fld_30f85f5dbfcb4a27b30819b66844b617",
-      "parentId": "fld_e850aa34f2714acab04cb8794f253b52",
+      "_id": "fld_a67b830cf38444d0823896307ade86f4",
+      "parentId": "fld_ecd6762c70494b19bdb6ed61c39839cb",
       "modified": "1637671845661",
-      "created": 1653609505679,
+      "created": 1653598279241,
       "name": "003 Shared Links (Forums, Social Media, etc.)",
       "description": "",
       "environment": {},
@@ -339,6 +339,30 @@
       "isPrivate": false,
       "metaSortKey": 1650301948812,
       "_type": "environment"
+    },
+    {
+      "_id": "uts_e6d9ca9d0ef6484cb66599cfa4c16e56",
+      "parentId": "__WORKSPACE_ID__",
+      "modified": "1637671845661",
+      "created": 1650474213904,
+      "name": "101 Test Core URLs for Atlassian",
+      "_type": "unit_test_suite"
+    },
+    {
+      "_id": "uts_50ebb983e79f436fa7d928f14c26d17f",
+      "parentId": "__WORKSPACE_ID__",
+      "modified": "1637671845661",
+      "created": 1650474278029,
+      "name": "102 - Landing Pages",
+      "_type": "unit_test_suite"
+    },
+    {
+      "_id": "uts_f608769493ed4c0eb5423521c0f72519",
+      "parentId": "__WORKSPACE_ID__",
+      "modified": "1637671845661",
+      "created": 1653524574343,
+      "name": "greg.stevens.pro redirect to www",
+      "_type": "unit_test_suite"
     },
     {
       "_id": "uts_2667b08519454b8e9495489cc2291618",
@@ -363,6 +387,86 @@
       "created": 1653609505710,
       "name": "greg.stevens.pro redirect to www",
       "_type": "unit_test_suite"
+    },
+    {
+      "_id": "env_7c82471ce930410e9a026f339cf444ce",
+      "parentId": "__BASE_ENVIRONMENT_ID__",
+      "modified": "1637671845661",
+      "created": 1650305515247,
+      "name": "publish.obsidian.md",
+      "data": {
+        "base_url": "https://publish.obsidian.md/greg-stevens-career"
+      },
+      "dataPropertyOrder": {
+        "&": [
+          "base_url"
+        ]
+      },
+      "color": "#7d69cb",
+      "isPrivate": false,
+      "metaSortKey": 1,
+      "_type": "environment"
+    },
+    {
+      "_id": "env_1b2594fb2d7a432b907c434a357530e7",
+      "parentId": "__BASE_ENVIRONMENT_ID__",
+      "modified": "1637671845661",
+      "created": 1650305572758,
+      "name": "PROD",
+      "data": {
+        "base_url": "https://career.stevens.pro",
+        "__comment": "Full protocol and domain, WITHOUT TRAILING SLASH e.g. `https://career.stevens.pro`"
+      },
+      "dataPropertyOrder": {
+        "&": [
+          "base_url",
+          "__comment"
+        ]
+      },
+      "color": "#73ff00",
+      "isPrivate": false,
+      "metaSortKey": 0,
+      "_type": "environment"
+    },
+    {
+      "_id": "env_7e249bbae8ab4c9c996e474f470025f8",
+      "parentId": "__BASE_ENVIRONMENT_ID__",
+      "modified": "1637671845661",
+      "created": 1653525480229,
+      "name": "localhost Gastsby",
+      "data": {
+        "stevens_pro_base_dev": "http://localhost:8000",
+        "stevens_pro_base": "http://localhost:9000"
+      },
+      "dataPropertyOrder": {
+        "&": [
+          "stevens_pro_base_dev",
+          "stevens_pro_base"
+        ]
+      },
+      "color": "#06fe8a",
+      "isPrivate": false,
+      "metaSortKey": 1653525480229,
+      "_type": "environment"
+    },
+    {
+      "_id": "env_88035b4e8c8249359e57b2d09cf082bf",
+      "parentId": "__BASE_ENVIRONMENT_ID__",
+      "modified": "1637671845661",
+      "created": 1653525665792,
+      "name": "PROD stevens.pro",
+      "data": {
+        "stevens_pro_base": "https://www.stevens.pro"
+      },
+      "dataPropertyOrder": {
+        "&": [
+          "stevens_pro_base"
+        ]
+      },
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1653525665792,
+      "_type": "environment"
     },
     {
       "_id": "env_19c1cf9e57fc40b6a41811bb6bbc3d88",
@@ -443,6 +547,66 @@
       "isPrivate": false,
       "metaSortKey": 1653525665792,
       "_type": "environment"
+    },
+    {
+      "_id": "ut_df25ced648ee42b8b401be4546454102",
+      "parentId": "uts_e6d9ca9d0ef6484cb66599cfa4c16e56",
+      "modified": "1637671845661",
+      "created": 1650474218500,
+      "requestId": "req_da41a246ec224bf5840ddbd68415dd3a",
+      "name": "Home",
+      "code": "const response1 = await insomnia.send();\nexpect(response1.status).to.equal(200);",
+      "_type": "unit_test"
+    },
+    {
+      "_id": "ut_0a8e062c9eeb4c84b68e05e978112b71",
+      "parentId": "uts_e6d9ca9d0ef6484cb66599cfa4c16e56",
+      "modified": "1637671845661",
+      "created": 1650474226170,
+      "requestId": "req_a9143cc43b8045de99fd0e7ec3c53947",
+      "name": "/atlassian",
+      "code": "const response1 = await insomnia.send();\nexpect(response1.status).to.equal(200);",
+      "_type": "unit_test"
+    },
+    {
+      "_id": "ut_db3daad42d284994b52e65fc4da8da66",
+      "parentId": "uts_e6d9ca9d0ef6484cb66599cfa4c16e56",
+      "modified": "1637671845661",
+      "created": 1650474236006,
+      "requestId": "req_2705b2dc4ddc42a885d317c5277a1e7f",
+      "name": "/org/atlassian",
+      "code": "const response1 = await insomnia.send();\nexpect(response1.status).to.equal(200);",
+      "_type": "unit_test"
+    },
+    {
+      "_id": "ut_a13b2632990444c89e182b3bf5039a0d",
+      "parentId": "uts_f608769493ed4c0eb5423521c0f72519",
+      "modified": "1637671845661",
+      "created": 1653524585959,
+      "requestId": "req_95671748ecc148e8ab2d9dc85608786d",
+      "name": "greg.stevens.pro redirect to www",
+      "code": "const response1 = await insomnia.send();\nexpect(response1.status).to.equal(301);",
+      "_type": "unit_test"
+    },
+    {
+      "_id": "ut_2b7074839e214b09878ccf3e7f579dc9",
+      "parentId": "uts_f608769493ed4c0eb5423521c0f72519",
+      "modified": "1637671845661",
+      "created": 1653524614067,
+      "requestId": "req_88def3292c1a402abcfd8534ed7af451",
+      "name": "www.stevens.pro Returns 200",
+      "code": "const response1 = await insomnia.send();\nexpect(response1.status).to.equal(200);",
+      "_type": "unit_test"
+    },
+    {
+      "_id": "ut_ea8bb0c80c59407191312d60815f1d30",
+      "parentId": "uts_f608769493ed4c0eb5423521c0f72519",
+      "modified": "1637671845661",
+      "created": 1653525202407,
+      "requestId": "req_56e870b31d0e4c35ae62198ebce35f57",
+      "name": "Netlify App 301 - https://main--greg-stevens-pro.netlify.app",
+      "code": "const response1 = await insomnia.send();\nexpect(response1.status).to.equal(301);",
+      "_type": "unit_test"
     },
     {
       "_id": "ut_54502b0ff83447dbbc701c57ac590a6d",
